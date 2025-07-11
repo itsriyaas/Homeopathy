@@ -1,8 +1,11 @@
 import React from 'react'
+import ServicesSection from '../components/ServicesSection'
 
 function Services() {
   return (
-    <div>Services</div>
+    <>
+    <ServicesSection/>
+    </>
   )
 }
 

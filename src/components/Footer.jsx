@@ -41,7 +41,7 @@ const Footer = () => {
         {/* Footer Bottom */}
         <hr className="my-4 border-light" />
         <p className="text-center mb-0 small">&copy; {new Date().getFullYear()} Body Mind Homoeopathic Research Centre. All rights reserved.</p>
-        <p className="text-center mb-0 small">Designed by <a href='https://www.theaitsolutions.net/' id='copyright'>Thea IT Solutions</a></p>
+        <p className="text-center mb-0 small">Designed by <a href='https://www.theaitsolutions.net/' id='copyright' target='_blank'>Thea IT Solutions</a></p>
       </Container>
     </footer>
   );

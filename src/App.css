@@ -113,3 +113,20 @@
   font-size: 0.95rem;
   color: #555;
 }
+/* services */
+.services-section .card:hover {
+  transform: translateY(-5px);
+  transition: 0.3s ease-in-out;
+}
+/* Testimonials */
+.testimonial-section {
+  background: #f5fbff;
+  padding: 4rem 0;
+  position: relative;
+  overflow: hidden;
+}
+
+.card:hover {
+  transform: translateY(-4px);
+  transition: 0.3s ease;
+}
