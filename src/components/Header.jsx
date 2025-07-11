@@ -1,48 +1,62 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { Container, Navbar, Nav } from 'react-bootstrap';
 import { FaPhoneAlt, FaMapMarkerAlt, FaFacebookF, FaInstagram, FaYoutube, FaWhatsapp } from 'react-icons/fa';
-import { Link } from 'react-router-dom';
-
+import { NavLink } from 'react-router-dom';
 
 const Header = () => {
+  const [expanded, setExpanded] = useState(false); // to control mobile collapse
+
   return (
     <>
       {/* Top Info Bar */}
       <div className="topbar d-flex justify-content-between align-items-center px-3 py-2 text-white flex-wrap">
-  {/* Phone & Location - Hidden on small screens */}
-  <div className="d-none d-md-flex align-items-center gap-3">
-    <span><FaPhoneAlt className="me-2" />04924 246 150</span>
-    <span><FaMapMarkerAlt className="me-2" /> Kalladikode, Karimba South, Kerala 678596</span>
-  </div>
+        {/* Hidden on small screens */}
+        <div className="d-none d-md-flex align-items-center gap-3">
+          <span><FaPhoneAlt className="me-2" />04924 246 150</span>
+          <span><FaMapMarkerAlt className="me-2" /> Kalladikode, Karimba South, Kerala 678596</span>
+        </div>
 
-  {/* Follow Us - Always visible */}
-  <div className="d-flex align-items-center gap-3 mt-2 mt-md-0">
-    <span>Follow Us On :</span>
-    <a href="https://www.facebook.com/share/19PXDN4Miy/" target="_blank" rel="noopener noreferrer"><FaFacebookF /></a>
-    <a href="https://www.instagram.com/dr_aiswarya_pediatric_clinic" target="_blank" rel="noopener noreferrer"><FaInstagram /></a>
-    <a href="#"><FaYoutube /></a>
-    <a href="#"><FaWhatsapp /></a>
-  </div>
-</div>
-
+        {/* Always Visible: Social */}
+        <div className="d-flex align-items-center gap-3 mt-2 mt-md-0">
+          <span>Follow Us On :</span>
+          <a href="https://www.facebook.com/share/19PXDN4Miy/" target="_blank" rel="noopener noreferrer"><FaFacebookF /></a>
+          <a href="https://www.instagram.com/dr_aiswarya_pediatric_clinic" target="_blank" rel="noopener noreferrer"><FaInstagram /></a>
+          <a href="#"><FaYoutube /></a>
+          <a href="#"><FaWhatsapp /></a>
+        </div>
+      </div>
 
       {/* Main Navigation */}
-      <Navbar expand="lg" className="bg-white py-3 shadow-sm">
-        <Container className="d-flex justify-content-between align-items-center">
-          <Navbar.Brand as={Link} to="/">
+      <Navbar expand="lg" className="bg-white py-3 shadow-sm" expanded={expanded}>
+        <Container>
+          <Navbar.Brand as={NavLink} to="/" onClick={() => setExpanded(false)}>
             <img src="logo.png" alt="Body Mind Homeopathy" height="50" />
-            <small className='fw-bold'>Body Mind Homoeopathy</small>
+            <small className='fw-bold ms-2'>Body Mind Homoeopathy</small>
           </Navbar.Brand>
-          <Navbar.Toggle aria-controls="basic-navbar-nav" />
+
+          <Navbar.Toggle aria-controls="basic-navbar-nav" onClick={() => setExpanded(!expanded)} />
+
           <Navbar.Collapse id="basic-navbar-nav" className="justify-content-center">
             <Nav className="gap-3 fw-bold">
-              <Nav.Link as={Link} to="/">HOME</Nav.Link>
-              <Nav.Link as={Link} to="/about-us">ABOUT US</Nav.Link>
-              <Nav.Link as={Link} to="/services">SERVICES</Nav.Link>
-              <Nav.Link as={Link} to="/gallery">GALLERY</Nav.Link>
-              <Nav.Link as={Link} to="/contact">CONTACT</Nav.Link>
+              {['/', '/about-us', '/services', '/gallery', '/contact'].map((path, idx) => {
+                const labels = ['HOME', 'ABOUT US', 'SERVICES', 'GALLERY', 'CONTACT'];
+                return (
+                  <NavLink
+                    key={path}
+                    to={path}
+                    className={({ isActive }) =>
+                      `nav-link ${isActive ? 'text-success' : 'text-dark'}`
+                    }
+                    onClick={() => setExpanded(false)}
+                  >
+                    {labels[idx]}
+                  </NavLink>
+                );
+              })}
             </Nav>
           </Navbar.Collapse>
+
+          {/* Appointment button (visible only on desktop) */}
           <div className="d-none d-lg-block">
             <a href="https://api.whatsapp.com/send?phone=918547003873" target="_blank" rel="noopener noreferrer">
               <button className="btn btn-success rounded-pill px-4 shadow appointment-btn">

@@ -1,9 +1,9 @@
-// DoctorProfile.jsx
 import React from 'react';
 import { useParams } from 'react-router-dom';
-import doctorsData from '../components/DoctorsData'
+import doctorsData from '../components/DoctorsData';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
+import FaqSection from './FaqDoc1'; // FAQ for Dr. Aiswarya
 
 const DoctorProfile = () => {
   const { id } = useParams();
@@ -57,6 +57,18 @@ const DoctorProfile = () => {
             </ul>
           </div>
         </div>
+
+        <div className="mt-5">
+          <h2 className='fw-bold'>Book an appointment</h2>
+          <button className='btn btn-outline-success'>BOOK NOW</button>
+        </div>
+
+        {/* Show FAQ only for Dr. Aiswarya */}
+        {id === 'aiswarya' && (
+          <div className="mt-5">
+            <FaqSection />
+          </div>
+        )}
       </div>
     </section>
   );

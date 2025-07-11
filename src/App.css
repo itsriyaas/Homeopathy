@@ -105,3 +105,11 @@
 .subheading{
   color: grey;
 }
+/* fAQ */
+.faq-section .accordion-button {
+  font-weight: 600;
+}
+.faq-section .accordion-body {
+  font-size: 0.95rem;
+  color: #555;
+}
