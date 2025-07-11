@@ -38,8 +38,8 @@ const Header = () => {
 
           <Navbar.Collapse id="basic-navbar-nav" className="justify-content-center">
             <Nav className="gap-3 fw-bold">
-              {['/', '/about-us', '/services', '/gallery', '/contact'].map((path, idx) => {
-                const labels = ['HOME', 'ABOUT US', 'SERVICES', 'GALLERY', 'CONTACT'];
+              {['/', '/about-us', '/services','/blog', '/gallery', '/contact'].map((path, idx) => {
+                const labels = ['HOME', 'ABOUT US', 'SERVICES','BLOG', 'GALLERY', 'CONTACT'];
                 return (
                   <NavLink
                     key={path}

@@ -2,8 +2,9 @@ import React from 'react'
 import HeroSection from '../components/HeroSection'
 import AboutUsSection from '../components/AboutSection'
 import ServicesSection from '../components/ServicesSection'
-import BookAppointment from '../components/BookUs'
 import Testimonials from '../components/Testimonials'
+import OurClinics from '../components/OurClinics'
+import BlogSection from '../components/BlogSection'
 
 function Home() {
   return (
@@ -11,7 +12,8 @@ function Home() {
     <HeroSection/>
     <AboutUsSection/>
     <ServicesSection/>
-    <BookAppointment/>
+    <OurClinics/>
+    <BlogSection/>
     <Testimonials/>
     </>
   )
