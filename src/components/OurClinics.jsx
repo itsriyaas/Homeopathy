@@ -6,7 +6,7 @@ import { FaHeartbeat, FaStethoscope, FaAllergies, FaUserMd, FaNotesMedical } fro
 
 const clinics = [
   {
-    location: 'Body Mind Homoeopathic Research Centre (BMHRC), Since 1990',
+    location: 'Body Mind Homoeopathic Research Centre, Since 1990',
     description: 'Located near Mother Hospital, Olari, Thrissur 680003',
     time:'Monday - Saturday',
     doctors:'Dr. B. Suresh Kumar, Dr. Aiswarya M.S',

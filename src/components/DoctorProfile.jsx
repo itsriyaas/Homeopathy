@@ -60,7 +60,7 @@ const DoctorProfile = () => {
 
         <div className="mt-5">
           <h2 className='fw-bold'>Book an appointment</h2>
-          <button className='btn btn-outline-success'>BOOK NOW</button>
+          <a href={doctor.contact} className='btn btn-outline-success'>BOOK NOW</a>
         </div>
 
         {/* Show FAQ only for Dr. Aiswarya */}

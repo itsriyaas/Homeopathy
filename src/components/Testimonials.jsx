@@ -31,7 +31,7 @@ const Testimonials = () => {
       <Container>
         <div className="text-center mb-5">
           <h2 className="fw-bold" data-aos="fade-down">What Our Patients Say</h2>
-          <p className="text-muted" data-aos="fade-up">Real stories from people we’ve had the pleasure to help heal.</p>
+          <p className="text-muted" data-aos="fade-up">Real stories from people we've had the pleasure to help heal.</p>
         </div>
         <Row className="g-4">
           {testimonials.map((t, index) => (
