@@ -1,6 +1,7 @@
 import React from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
 import { FaFacebookF, FaInstagram, FaYoutube, FaWhatsapp, FaEnvelope, FaPhoneAlt, FaMapMarkerAlt } from 'react-icons/fa';
+import { Link } from 'react-router-dom';
 
 const Footer = () => {
   return (
@@ -10,7 +11,7 @@ const Footer = () => {
           {/* Logo & Address */}
           <Col md={4}>
             <img src="logo.png" alt="Logo" height="50" className="mb-3" />
-            <p><FaMapMarkerAlt className="me-2" /> Kalladikode, Karimba South, Kerala 678596</p>
+            <p><FaMapMarkerAlt className="me-2" /> Kaipamangalam - Aravushala Rd, Moonnupeedika, Kerala 680681</p>
             <p><FaEnvelope className="me-2" /> info@bodymindhomeopathy.com</p>
             <p><FaPhoneAlt className="me-2" /> 04924 246 150</p>
           </Col>
@@ -19,10 +20,11 @@ const Footer = () => {
           <Col md={4}>
             <h5 className="mb-3">Quick Links</h5>
             <ul className="list-unstyled">
-              <li><a href="/" className="text-white text-decoration-none">Home</a></li>
-              <li><a href="/about" className="text-white text-decoration-none">About Us</a></li>
-              <li><a href="/services" className="text-white text-decoration-none">Services</a></li>
-              <li><a href="/contact" className="text-white text-decoration-none">Contact</a></li>
+              <li><Link to={'/'} className="text-white text-decoration-none">Home</Link></li>
+              <li><Link to={'/about-us'} className="text-white text-decoration-none">About Us</Link></li>
+              <li><Link to={'/services'} className="text-white text-decoration-none">Services</Link></li>
+              <li><Link to={'/gallery'} className="text-white text-decoration-none">Gallery</Link></li>
+              <li><Link to={'/contact'} className="text-white text-decoration-none">Contact</Link></li>
             </ul>
           </Col>
 

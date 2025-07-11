@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const HeroSection = () => {
   return (
@@ -17,8 +18,8 @@ const HeroSection = () => {
               Body Mind Homoeopathic Research Centre, we believe true healing goes beyond physical ailments it encompasses the body, mind, and soul. Our center is founded on the principles of classical homoeopathy, with a strong focus on individualized care, scientific research, and holistic well-being.
             </p>
             <div className="d-flex flex-wrap gap-3 mt-4 justify-content-center justify-content-md-start">
-              <a href="#discover" className="btn btn-success rounded-pill px-4 py-2">Discover More</a>
-              <a href="#services" className="btn btn-primary rounded-pill px-4 py-2">See All Services</a>
+              <Link to={'/about-us'} className="btn btn-success rounded-pill px-4 py-2">Discover More</Link>
+              <Link to={'/services'} className="btn btn-primary rounded-pill px-4 py-2">See All Services</Link>
             </div>
           </div>
 

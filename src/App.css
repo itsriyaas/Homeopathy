@@ -130,3 +130,16 @@
   transform: translateY(-4px);
   transition: 0.3s ease;
 }
+/* Contact US */
+.contact-section a {
+  color: #000;
+  font-size: 1.1rem;
+}
+
+.contact-section a:hover {
+  color: #28a745;
+  text-decoration: none;
+}
+.locations-section iframe {
+  border-radius: 12px;
+}
