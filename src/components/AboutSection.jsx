@@ -44,7 +44,7 @@ const AboutUsSection = () => {
                      {/* Image Column */}
                     <div className="col-md-6 text-center" data-aos="fade-right">
                         <img
-                            src="assets/doctors/draishwarya.png"
+                            src="assets/doctors/draishwarya.jpg"
                             alt="About Body Mind Homeopathy"
                             className="img-fluid rounded-4 shadow"
                             style={{ maxHeight: '400px', objectFit: 'cover' }}

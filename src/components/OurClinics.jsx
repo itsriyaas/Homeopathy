@@ -28,7 +28,7 @@ const clinics = [
      time:'Monday - Saturday',
     doctors:'Dr. B. Suresh Kumar, Dr. Aiswarya M.S',
     map:'https://maps.app.goo.gl/i3731CDDYq5Jsdb89',
-    url:'tel:919349021110'
+    url:'tel:919339021110'
   },
   {
     location: 'Dr. Aiswarya M S Homeopathic Clinic',
@@ -44,7 +44,7 @@ const clinics = [
      time:'Monday - Saturday',
     doctors:'Dr. Aiswarya M.S',
     map:'https://maps.app.goo.gl/b8MA47m9kfnrkPjX8',
-    url:'tel:918547003873'
+    url:'tel:918547029080'
   },
    {
     location: 'Body Mind Homoeopathic Research Centre',
