@@ -24,7 +24,7 @@ const HeroSection = () => {
           </div>
 
           {/* Image */}
-          <div className="col-md-6 text-center mt-4 mt-md-0 position-relative">
+          <div className="col-md-6 text-center mt-5 mt-md-0 position-relative">
             <img
               src="assets/doctors/drpairs.png"
               alt="Doctors"
