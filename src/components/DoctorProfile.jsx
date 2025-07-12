@@ -42,7 +42,7 @@ const DoctorProfile = () => {
           <div className="col-md-8" data-aos="fade-right">
             <p>{doctor.description}</p>
 
-            <h5 className="mt-4">Specializations</h5>
+            <h5 className="mt-4 fw-bold">Specializations :</h5>
             <ul>
               {doctor.specializations.map((spec, index) => (
                 <li key={index}>{spec}</li>

@@ -37,7 +37,7 @@ const Header = () => {
           <Navbar.Toggle aria-controls="basic-navbar-nav" onClick={() => setExpanded(!expanded)} />
 
           <Navbar.Collapse id="basic-navbar-nav" className="justify-content-center">
-            <Nav className="gap-3 fw-bold">
+            <Nav className="gap-md-3 fw-bold">
               {['/', '/about-us', '/services','/blog', '/gallery', '/contact'].map((path, idx) => {
                 const labels = ['HOME', 'ABOUT US', 'SERVICES','BLOG', 'GALLERY', 'CONTACT'];
                 return (

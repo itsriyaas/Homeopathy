@@ -59,7 +59,7 @@ const AboutUsSection = () => {
                         <p className="text-muted">
                             <strong>Dr. Aiswarya</strong> was honored with the Best Researcher Award by the Central Council for Research in Homoeopathy (CCRH), New Delhi, for her groundbreaking thesis on the Effectiveness of Homoeopathy in the Treatment of Epilepsy Among Children, successfully treating over 30 pediatric cases of epileptiform fits with homoeopathic remedies.
                         </p>
-                        <p className='text-muted'>Specialisations</p>
+                        <p className='text-muted fw-bold'>Specialisations :</p>
                         <ul>
                             <li>Homoeopathy</li>
                             <li>Allergy</li>
