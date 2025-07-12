@@ -14,6 +14,7 @@ import 'aos/dist/aos.css';
 import { useEffect } from "react";
 import DoctorProfile from "./components/DoctorProfile";
 import Blog from "./pages/Blog";
+import ScrollToTopButton from "./components/ScrollTop";
 
 function App() {
   useEffect(() => {
@@ -36,6 +37,7 @@ function App() {
             <Route path="*" element={<Home />} />
           </Routes>
           <WhatsAppButton/>
+          <ScrollToTopButton/>
         </main>
         <Footer />
       </div>
