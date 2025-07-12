@@ -4,7 +4,8 @@ const blogPosts = [
   {
     title: 'Understanding Homeopathy for Chronic Illness',
     description: 'Explore how homeopathy provides a safe and effective approach for managing chronic diseases by addressing the root cause.',
-    videoUrl: 'https://www.youtube.com/embed/OdT0zWRUk2I',
+    videoUrl: 'https://www.youtube.com/embed/m09hCnD-Xj8',
+    
   },
   {
     title: 'Paediatric Homeopathy: A Gentle Healing Path',

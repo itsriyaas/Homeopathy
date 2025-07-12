@@ -76,6 +76,9 @@
   position: relative;
   overflow: hidden;
 }
+.services-section{
+  background: #f5fbff;
+}
 
 .hero-section .highlight-green {
   color: #00b86b;

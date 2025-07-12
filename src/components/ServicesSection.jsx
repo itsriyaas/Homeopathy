@@ -34,7 +34,7 @@ const services = [
 
 const ServicesSection = () => {
   return (
-    <section className="services-section py-5 bg-light">
+    <section className="services-section py-5">
       <Container>
         <div className="text-center mb-5" data-aos="fade-down">
           <h2 className="fw-bold display-5">Our Services</h2>
