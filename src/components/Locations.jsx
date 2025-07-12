@@ -27,7 +27,7 @@ const LocationsSection = () => {
   const [selectedIndex, setSelectedIndex] = useState(0);
 
   return (
-    <section className="locations-section py-5">
+    <section className="container locations-section py-5">
       <div className="container">
         <h2 className="fw-bold mb-4">Our Locations</h2>
         <div className="row g-3 mb-4">

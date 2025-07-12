@@ -5,7 +5,7 @@ import LocationsSection from './Locations';
 
 const ContactUsSection = () => {
   return (
-    <section className="contact-section py-5 bg-white">
+    <section className="container contact-section py-5 bg-white">
       <Container>
         <Row className="align-items-center g-5">
           {/* Contact Info & Social */}

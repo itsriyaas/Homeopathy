@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 
 const AboutUsSection = () => {
     return (
-        <section className="about-us-section py-5 bg-light">
+        <section className="container about-us-section py-5">
             <div className="container">
                 <div className="row align-items-center g-5">
                     {/* Text Column */}
