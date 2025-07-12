@@ -26,7 +26,7 @@ const clinics = [
     location: 'Body Mind Homoeopathic Research Centre',
     description: 'Located at Kalladikode, Karimba South, Kerala 678596',
      time:'Monday - Saturday',
-    doctors:'Dr. B. Suresh Kumar, Dr. Aiswarya M.S',
+    doctors:'Dr. B. Suresh Kumar',
     map:'https://maps.app.goo.gl/i3731CDDYq5Jsdb89',
     url:'tel:919339021110'
   },

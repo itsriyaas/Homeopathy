@@ -13,6 +13,14 @@ const locations = [
     address: '486Q+P6M, KNP Puram, Odakkadu, Tiruppur, Tamil Nadu 641687',
     mapUrl: 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3915.0208227837134!2d77.3380316!3d11.1118259!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ba907a9187d33fd%3A0xfe847d6c6a6dba66!2sTirupur%20Towers!5e0!3m2!1sen!2sin!4v1752228549097!5m2!1sen!2sin',
   },
+  {
+    address: 'Dr. Aiswaryas Paediatric Homoeo Clinic Koonans complex, opposite National school, Irinjalakuda, Kerala 680121',
+    mapUrl: 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3924.871590115614!2d76.2009163!3d10.352151200000002!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ba7f74fde34f9fb%3A0x75d7e3bd9e06b62b!2sDr.%20Aiswarya%20M%20S%20Homeopathic%20Clinic!5e0!3m2!1sen!2sin!4v1752299092619!5m2!1sen!2sin',
+  },
+  {
+    address: 'Kalladikode, Karimba South, Kerala 678596',
+    mapUrl: 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3917.873023775614!2d76.53698980000001!3d10.897253400000002!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ba8799acc706d79%3A0x9123aaa0eb735aa2!2sBody%20Mind%20Homoeopathic%20Research%20Centre!5e0!3m2!1sen!2sin!4v1752299162540!5m2!1sen!2sin',
+  },
 ];
 
 const LocationsSection = () => {
