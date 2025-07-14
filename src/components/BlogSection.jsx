@@ -2,19 +2,19 @@ import React from 'react';
 
 const blogPosts = [
   {
-    title: 'Understanding Homeopathy for Chronic Illness',
+    title: 'An Easy Method To Reach Simillum In Paediatric Practice (HOMOEPATHY IN PAEDIATRICS)',
     description: 'Explore how homeopathy provides a safe and effective approach for managing chronic diseases by addressing the root cause.',
-    videoUrl: 'https://www.youtube.com/embed/m09hCnD-Xj8',
+    videoUrl: 'https://www.youtube.com/embed/qYC48NMEzIM',
     
   },
   {
     title: 'Paediatric Homeopathy: A Gentle Healing Path',
-    description: 'Learn how homeopathy supports children with conditions like asthma, ADHD, and eczema — naturally and gently.',
-    videoUrl: 'https://www.youtube.com/embed/hm87D8dix64',
+    description: 'Learn how homeopathy supports children with conditions like asthma, ADHD, and eczema naturally and gently.',
+    videoUrl: 'https://www.youtube.com/embed/7rzGLcbRZ4Q',
   },
   {
     title: 'Mind-Body Connection in Holistic Healing',
-    description: 'Dive into how mental and emotional health influence physical wellness — the foundation of the Body Mind approach.',
+    description: 'Dive into how mental and emotional health influence physical wellness the foundation of the Body Mind approach.',
     videoUrl: 'https://www.youtube.com/embed/ogdmjc3qlhQ',
   },
 ];
