@@ -175,5 +175,5 @@
 }
 /* 404 */
 .notfound-wrapper {
-  background-color: #fff;
+ background: radial-gradient(circle at 56% 50%,#ffffff, rgba(226, 248, 230, 1), rgba(224,255,232,1))
 }
