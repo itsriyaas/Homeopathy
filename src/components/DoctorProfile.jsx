@@ -16,13 +16,13 @@ const DoctorProfile = () => {
   if (!doctor) {
     return (
       <div className="container py-5 text-center">
-        <h2>Doctor not found</h2>
+        <h2>Doctor not found !</h2>
       </div>
     );
   }
 
   return (
-    <section className="py-5 doctor-profile-section bg-white">
+    <section className="container py-5 doctor-profile-section bg-white">
       <div className="container">
         <div className="text-center mb-5">
           <h1 className="fw-bold" data-aos="fade-down">{doctor.name}</h1>
