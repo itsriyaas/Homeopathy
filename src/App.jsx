@@ -15,6 +15,7 @@ import { useEffect } from "react";
 import DoctorProfile from "./components/DoctorProfile";
 import Blog from "./pages/Blog";
 import ScrollToTopButton from "./components/ScrollTop";
+import NotFound from "./pages/PageNotFound";
 
 function App() {
   useEffect(() => {
@@ -34,7 +35,7 @@ function App() {
             <Route path="/gallery" element={<Gallery />} />
             <Route path="/contact" element={<Contact />} />
             <Route path="/doctor/:id" element={<DoctorProfile />} />
-            <Route path="*" element={<Home />} />
+            <Route path="*" element={<NotFound/>} />
           </Routes>
           <WhatsAppButton/>
           <ScrollToTopButton/>

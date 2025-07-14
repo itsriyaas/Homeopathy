@@ -30,7 +30,7 @@ const Header = () => {
       <Navbar expand="lg" className="bg-white py-3 shadow-sm" expanded={expanded}>
         <Container>
           <Navbar.Brand as={NavLink} to="/" onClick={() => setExpanded(false)}>
-            <img src="logo.png" alt="Body Mind Homeopathy" height="50" />
+            <img src="logo.png" alt="logo" height="50" />
             <small className='fw-bold ms-2'>Body Mind Homoeopathy</small>
           </Navbar.Brand>
 

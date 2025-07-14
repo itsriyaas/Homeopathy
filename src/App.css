@@ -173,3 +173,7 @@
 .scroll-to-top:hover {
   background-color: #157347;
 }
+/* 404 */
+.notfound-wrapper {
+  background-color: #fff;
+}
