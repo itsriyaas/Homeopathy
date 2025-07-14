@@ -16,7 +16,7 @@ const DoctorProfile = () => {
   if (!doctor) {
     return (
       <div className="container py-5 text-center">
-        <h2>Doctor not found !</h2>
+        <h2 className='fw-bold mt-5'>Doctor not found !</h2>
       </div>
     );
   }
