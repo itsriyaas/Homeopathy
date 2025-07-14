@@ -9,9 +9,9 @@ const clinics = [
     location: 'Body Mind Homoeopathic Research Centre, Since 1990',
     description: 'Located near Mother Hospital, Olari, Thrissur 680003',
     time:'Monday - Saturday',
-    doctors:'Dr. B. Suresh Kumar, Dr. Aiswarya M.S',
+    doctors:'Dr. B. Suresh Kumar, Dr Praveen Dharma rathnam D.H.M.S, Dr. Sheneefa BHMS',
     map:'https://maps.app.goo.gl/p3DgEHTck3wkc2oA9',
-    url:'tel:919349021110'
+    url:'tel:919747531115'
 
   },
   {
@@ -28,7 +28,7 @@ const clinics = [
      time:'Monday - Saturday',
     doctors:'Dr. B. Suresh Kumar',
     map:'https://maps.app.goo.gl/i3731CDDYq5Jsdb89',
-    url:'tel:919339021110'
+    url:'tel:919387836559'
   },
   {
     location: 'Dr. Aiswarya M S Homeopathic Clinic',
@@ -50,9 +50,9 @@ const clinics = [
     location: 'Body Mind Homoeopathic Research Centre',
     description: 'Located at KNP Puram, Odakkadu, Tiruppur, Tamil Nadu 641687',
      time:'Monday - Saturday',
-    doctors:'Dr. B. Suresh Kumar',
+    doctors:'Dr. B. Suresh Kumar,  Dr Sameena. BHMS',
     map:'https://maps.app.goo.gl/Zc6xXtVpCvkvkmzs6',
-    url:'tel:919349021110'
+    url:'tel:916238592169'
   },
 ];
 
