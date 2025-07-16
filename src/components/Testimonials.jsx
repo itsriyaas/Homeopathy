@@ -27,7 +27,7 @@ const Testimonials = () => {
   }, []);
 
   return (
-    <section className="testimonial-section py-5 bg-light">
+    <section className="testimonial-section py-5">
       <Container>
         <div className="text-center mb-5">
           <h2 className="fw-bold" data-aos="fade-down">What Our Patients Say</h2>
