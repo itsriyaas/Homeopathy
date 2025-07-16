@@ -1,6 +1,6 @@
 
 import React from 'react';
-import { FaPhoneAlt, FaWhatsapp } from 'react-icons/fa';
+import { FaPhoneAlt } from 'react-icons/fa';
 
 const WhatsAppButton = () => {
   return (

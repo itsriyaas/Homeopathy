@@ -13,9 +13,9 @@ const blogPosts = [
     videoUrl: 'https://www.youtube.com/embed/7rzGLcbRZ4Q',
   },
   {
-    title: 'Mind-Body Connection in Holistic Healing',
+    title: 'CROHNS DISEASE CURED WITH BODYMIND HOMOEOPATHY APPROACH by Dr B Sureshkumar M.D(Hom)',
     description: 'Dive into how mental and emotional health influence physical wellness the foundation of the Body Mind approach.',
-    videoUrl: 'https://www.youtube.com/embed/ogdmjc3qlhQ',
+    videoUrl: 'https://www.youtube.com/embed/40n-CNRdAhk',
   },
 ];
 
