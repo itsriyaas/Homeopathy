@@ -10,10 +10,10 @@ const ContactUsSection = () => {
         <Row className="align-items-center g-5">
           {/* Contact Info & Social */}
           <Col lg={6}>
-            <div className="mb-4">
-              <p className="mb-2"><FaMapMarkerAlt className="me-2 text-success" />Kaipamangalam - Aravushala Rd, Moonnupeedika, Kerala 680681</p>
-              <p className="mb-2"><FaEnvelope className="me-2 text-success" />info@bodymindhomeopathy.com</p>
-              <p className="mb-4"><FaPhoneAlt className="me-2 text-success" />04924 246 150</p>
+            <div className="links mb-4">
+              <a href='https://maps.app.goo.gl/3CbZEcRXupegskwB9' target='_blank'><p className="mb-2"><FaMapMarkerAlt className="me-2 text-success" />Kaipamangalam - Aravushala Rd, Moonnupeedika, Kerala 680681</p></a>
+              <a href='mailto:info@bodymindhomeopathy.com' target='_blank'><p className="mb-2"><FaEnvelope className="me-2 text-success" />info@bodymindhomeopathy.com</p></a>
+              <a href='tel:04924246150' target='_blank'><p className="mb-4"><FaPhoneAlt className="me-2 text-success" />04924 246 150</p></a>
               <div className="d-flex gap-3">
                 <a href="https://www.facebook.com/share/19PXDN4Miy/" target='_blank'><FaFacebookF /></a>
                 <a href="#"><FaTwitter /></a>

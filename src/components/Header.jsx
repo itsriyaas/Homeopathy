@@ -31,7 +31,7 @@ const Header = () => {
         <Container>
           <Navbar.Brand as={NavLink} to="/" onClick={() => setExpanded(false)}>
             <img src="logo.png" alt="logo" height="50" />
-            <small className='fw-bold ms-2'>Body Mind Homoeopathy</small>
+            <small className='fw-bold ms-2'>BodyMind Multispeciality Homoeopathy</small>
           </Navbar.Brand>
 
           <Navbar.Toggle aria-controls="basic-navbar-nav" onClick={() => setExpanded(!expanded)} />
