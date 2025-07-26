@@ -16,6 +16,7 @@ import DoctorProfile from "./components/DoctorProfile";
 import Blog from "./pages/Blog";
 import ScrollToTopButton from "./components/ScrollTop";
 import NotFound from "./pages/PageNotFound";
+import Paediatrics from "./pages/Paediatrics";
 
 function App() {
   useEffect(() => {
@@ -35,6 +36,7 @@ function App() {
             <Route path="/gallery" element={<Gallery />} />
             <Route path="/contact" element={<Contact />} />
             <Route path="/doctor/:id" element={<DoctorProfile />} />
+            <Route path="/pediatrics" element={<Paediatrics />} />
             <Route path="*" element={<NotFound/>} />
           </Routes>
           <WhatsAppButton/>

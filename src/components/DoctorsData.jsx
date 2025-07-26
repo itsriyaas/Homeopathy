@@ -22,13 +22,13 @@ const doctorsData = [
   },
   {
     id: 'aiswarya',
-    name: 'Dr. Aiswarya M.S',
+    name: 'Welcome to Dr. Aiswaryas Pediatric Homeo Clinic',
     qualifications: 'B.H.M.S and M.D in Paediatrics',
     image: '/assets/doctors/draishwarya.jpg',
     contact:'tel:918547029080',
-    description: 'Dr. Aiswarya M.S is a skilled and compassionate Homoeopathic Paediatrician with over 6 years of clinical experience, known for her dedicated work in treating pediatric neurological and behavioral disorders. She holds a B.H.M.S and M.D in Paediatrics from Sarada Krishna Homoeopathic Medical College, Tamil Nadu, and also holds a Diploma in Yoga, reflecting her holistic approach to wellness.Dr. Aiswarya was honored with the Best Researcher Award by the Central Council for Research in Homoeopathy (CCRH), New Delhi, for her groundbreaking thesis on the Effectiveness of Homoeopathy in the Treatment of Epilepsy Among Children, successfully treating over 30 pediatric cases of epileptiform fits with homoeopathic remedies.',
-    specializations: ['Homoeopathy', 'Allergy','Paediatrician','INFERTILITY','Yoga'],
-    recognitions: ['MD Post Graduate Examination topper, 2020','SCHOLARSHIP FOR QUALITY MD DISSERTATION IN HOMOEOPATHY, 2020','Feeding and Nutrition for a 2 year old , Nestlin Meadow, paediatric journal , 2019','An Insight into Anti Inflammatory Property of St Ignatius Bean , International conference on Homoeopathy and Phytomedicine , 2018','Effectiveness of Homoeopathy in the treatment of epilepsy among children , Proceedings of Scientific Research paper Presentations in Homoeopathy , 2018']
+    description: 'Dr. Aiswarya M.S is a skilled and compassionate Homoeopathic Paediatrician with over 6 years of clinical experience, known for her dedicated work in treating pediatric neurological, behavioral, and respiratory disorders. She holds a B.H.M.S and M.D in Paediatrics from Sarada Krishna Homoeopathic Medical College, Tamil Nadu, and also holds a Diploma in Yoga, reflecting her holistic approach to wellness. Dr. Aiswarya was honored with the Best Researcher Award by the Central Council for Research in Homoeopathy (CCRH), New Delhi, for her groundbreaking thesis on the Effectiveness of Homoeopathy in the Treatment of Epilepsy Among Children, successfully treating over 30 pediatric cases of epileptiform fits with homoeopathic remedies. She has extensive clinical experience in treating childhood allergies and asthma, focusing on long-term relief through individualized homeopathic treatment.',
+    specializations: ['Allergy', 'Adenoids','Asthma','ADHD (Hyperactivity)','Autism','Learning Disorders'],
+    recognitions: ['MD Post Graduate Examination Topper in Pediatrics, Dr. MGR University, 2020','Scholarship for Quality MD Dissertation in Homeopathy, 2020','Published Article: "Feeding and Nutrition for a 2-Year-Old" – Nestlin Meadow, Pediatric Journal, 2019','Paper Presentation: "An Insight into Anti-Inflammatory Property of St. Ignatius Bean" – International Conference on Homeopathy and Phytomedicine, 2018','Best Dissertation Award: Central Council for Research in Homeopathy – Effectiveness of Homeopathy in the Treatment of Epilepsy Among Children, 2018','Special Invitee – World Homeopathy Day, New Delhi, 2019','Poster Presentation – Epilepsy in Children, World Homeopathy Day, New Delhi']
   }
 ];
 

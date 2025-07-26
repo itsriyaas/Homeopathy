@@ -54,19 +54,20 @@ const AboutUsSection = () => {
                     <div className="col-md-6" data-aos="fade-right">
                         <h2 className="fw-bold mb-3">Dr. Aiswarya M.S - Homoeopathic Paediatrician</h2>
                         <p className="text-muted">
-                            <strong>Dr. Aiswarya M.S</strong> is a skilled and compassionate Homoeopathic Paediatrician with over 6 years of clinical experience, known for her dedicated work in treating pediatric neurological and behavioral disorders. She holds a B.H.M.S and M.D in Paediatrics from Sarada Krishna Homoeopathic Medical College, Tamil Nadu, and also holds a Diploma in Yoga, reflecting her holistic approach to wellness.
+                            At our clinic, we are committed to offering compassionate, holistic, and evidence-based homeopathic care to children. Led by <strong>Dr. Aiswarya</strong>, a dedicated pediatric homeopathic physician, we specialize in treating a wide range of childhood conditions with a personalized and gentle approach.
                         </p>
                         <p className="text-muted">
-                            <strong>Dr. Aiswarya</strong> was honored with the Best Researcher Award by the Central Council for Research in Homoeopathy (CCRH), New Delhi, for her groundbreaking thesis on the Effectiveness of Homoeopathy in the Treatment of Epilepsy Among Children, successfully treating over 30 pediatric cases of epileptiform fits with homoeopathic remedies.
+                           <strong>Dr. Aiswarya M.S</strong> is a skilled and compassionate Homoeopathic Paediatrician with over 6 years of clinical experience, known for her dedicated work in treating pediatric neurological, behavioral, and respiratory disorders. She holds a B.H.M.S and M.D in Paediatrics from Sarada Krishna Homoeopathic Medical College, Tamil Nadu, and also holds a Diploma in Yoga, reflecting her holistic approach to wellness. Dr. Aiswarya was honored with the Best Researcher Award by the Central Council for Research in Homoeopathy (CCRH), New Delhi, for her groundbreaking thesis on the Effectiveness of Homoeopathy in the Treatment of Epilepsy Among Children, successfully treating over 30 pediatric cases of epileptiform fits with homoeopathic remedies. She has extensive clinical experience in treating childhood allergies and asthma, focusing on long-term relief through individualized homeopathic treatment.
+
                         </p>
                         <p className='text-muted fw-bold'>Specialisations :</p>
                         <ul>
-                            <li>Homoeopathy</li>
                             <li>Allergy</li>
-                            <li>Behavioral Disorders</li>
-                            <li>Paediatrician</li>
-                            <li>INFERTILITY</li>
-                            <li>Yoga</li>
+                            <li>Adenoids</li>
+                            <li>Asthma</li>
+                            <li>ADHD (Hyperactivity)</li>
+                            <li>Autism</li>
+                            <li>Learning Disorders</li>
                         </ul>
                         <p className='text-muted'>At <strong>Body Mind Homoeopathic Research Centre</strong>, Dr. Aiswarya serves as a pediatric consultant across centers in Thrissur (Near Mother Hospital - Ayyanthole), Moonupeedika, and Kalladikode (Palakkad).</p>
                         <Link to="/doctor/aiswarya" className="btn btn-success rounded-pill px-4 mt-3">Learn More</Link>

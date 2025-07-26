@@ -4,6 +4,7 @@ import doctorsData from '../components/DoctorsData';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import FaqSection from './FaqDoc1'; // FAQ for Dr. Aiswarya
+import { FaFacebook, FaInstagram } from 'react-icons/fa';
 
 const DoctorProfile = () => {
   const { id } = useParams();
@@ -56,11 +57,35 @@ const DoctorProfile = () => {
               ))}
             </ul>
           </div>
+          {/* Why Choose Us Section */}
+          {id === 'aiswarya' && (<div className="mt-5" data-aos="fade-up">
+            <h2 className="fw-bold">Why Choose Us</h2>
+            <ul>
+              <li>Child-centered homeopathic approach</li>
+              <li>Deep expertise in pediatric disorders</li>
+              <li>Emphasis on long-term well-being and development</li>
+              <li>Warm, supportive environment for both children and parents</li>
+            </ul>
+          </div>)}
+
+
         </div>
 
         <div className="mt-5">
-          <h2 className='fw-bold'>Book an appointment</h2>
+          <h2 className='fw-bold'>Contact & Appointments:</h2>
+          { id === 'aiswarya' && (<p><strong>Dr Aiswarya Pediatric Homeo clinic</strong> <br /> Irinjalakuda,Thrissur
+            Branch-kaipamangalam, moonupeedika <br />
+            <span style={{color:"green"}}>Booking 8547029080,8547003873</span></p>)}
           <a href={doctor.contact} className='btn btn-outline-success'>BOOK NOW</a>
+        </div>
+
+         <div className="mt-5">
+          <h2 className='fw-bold'>Follow Us :</h2>
+          { id === 'aiswarya' && (
+            <div className='social d-flex'><a href='https://www.instagram.com/dr_aiswarya_pediatric_clinic' target='_blank'><FaInstagram color='red' className='me-2 fs-3' /></a>
+            <a href=''><FaFacebook color='#4267B2' className='fs-3'/></a>
+            </div>
+          )}
         </div>
 
         {/* Show FAQ only for Dr. Aiswarya */}

@@ -30,16 +30,17 @@ const Header = () => {
       <Navbar expand="lg" className="bg-white py-3 shadow-sm" expanded={expanded}>
         <Container>
           <Navbar.Brand as={NavLink} to="/" onClick={() => setExpanded(false)}>
-            <img src="logo.png" alt="logo" height="50" />
-            <small className='fw-bold ms-2'>BodyMind Multispeciality Homoeopathy</small>
+            <div><img src="logo_homeopathy.png" alt="logo" height="70" /><br/>
+            <small className='fw-bold'></small>Body Mind Multispeciality<br />Homoeopathic Clinic</div>
+            
           </Navbar.Brand>
 
           <Navbar.Toggle aria-controls="basic-navbar-nav" onClick={() => setExpanded(!expanded)} />
 
           <Navbar.Collapse id="basic-navbar-nav" className="justify-content-center">
             <Nav className="gap-md-3 fw-bold">
-              {['/', '/about-us', '/services','/blog', '/gallery', '/contact'].map((path, idx) => {
-                const labels = ['HOME', 'ABOUT US', 'SERVICES','BLOG', 'GALLERY', 'CONTACT'];
+              {['/', '/about-us', '/services','/pediatrics','/blog', '/gallery', '/contact'].map((path, idx) => {
+                const labels = ['HOME', 'ABOUT US', 'SERVICES','PAEDIATRICS','BLOG', 'GALLERY', 'CONTACT'];
                 return (
                   <NavLink
                     key={path}
