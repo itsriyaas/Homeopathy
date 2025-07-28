@@ -12,7 +12,7 @@ const HeroSection = () => {
               Healing Beyond Symptoms
             </p>
             <h1 className="display-5 fw-bold">
-              Kerala's <span className="highlight-green">Best</span><br /> Homeopathic Research Centre
+             Welcome to <span className="highlight-green">Body Mind</span><br /> Multispeciality Homoeopathic clinic
             </h1>
             <p className="mt-3 text-muted">
               Body Mind Homoeopathic Research Centre, we believe true healing goes beyond physical ailments it encompasses the body, mind, and soul. Our center is founded on the principles of classical homoeopathy, with a strong focus on individualized care, scientific research, and holistic well-being.
