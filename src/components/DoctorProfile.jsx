@@ -75,7 +75,7 @@ const DoctorProfile = () => {
           <h2 className='fw-bold'>Contact & Appointments:</h2>
           { id === 'aiswarya' && (<p><strong>Dr Aiswarya Pediatric Homeo clinic</strong> <br /> Irinjalakuda,Thrissur
             Branch-kaipamangalam, moonupeedika <br />
-            <span style={{color:"green"}}>Booking 8547029080,8547003873</span></p>)}
+            <span><span style={{color:"black",fontWeight:"bold"}}>Booking :</span> <br />8547029080 <br />8547003873</span></p>)}
           <a href={doctor.contact} className='btn btn-outline-success'>BOOK NOW</a>
         </div>
 
