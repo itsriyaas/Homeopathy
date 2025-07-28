@@ -35,8 +35,8 @@ const Footer = () => {
             <div className="d-flex gap-3">
               <a href="https://www.facebook.com/share/19PXDN4Miy/" target='_blank' className="text-white fs-5"><FaFacebookF /></a>
               <a href="https://www.instagram.com/dr_aiswarya_pediatric_clinic" target='_blank' className="text-white fs-5"><FaInstagram /></a>
-              <a href="#" className="text-white fs-5"><FaYoutube /></a>
-              <a href="#" className="text-white fs-5"><FaWhatsapp /></a>
+              <a href="https://www.youtube.com/@BodyMindHomoeopathy" target='_blank' className="text-white fs-5"><FaYoutube /></a>
+              <a href="https://api.whatsapp.com/send?phone=918547003873" target='_blank' className="text-white fs-5"><FaWhatsapp /></a>
             </div>
           </Col>
         </Row>

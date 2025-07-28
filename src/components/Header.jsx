@@ -21,8 +21,8 @@ const Header = () => {
           <span>Follow Us On :</span>
           <a href="https://www.facebook.com/share/19PXDN4Miy/" target="_blank" rel="noopener noreferrer"><FaFacebookF /></a>
           <a href="https://www.instagram.com/dr_aiswarya_pediatric_clinic" target="_blank" rel="noopener noreferrer"><FaInstagram /></a>
-          <a href="#"><FaYoutube /></a>
-          <a href="#"><FaWhatsapp /></a>
+          <a href="https://www.youtube.com/@BodyMindHomoeopathy" target='_blank'><FaYoutube /></a>
+          <a href="https://api.whatsapp.com/send?phone=918547003873" target='_blank'><FaWhatsapp /></a>
         </div>
       </div>
 
@@ -30,7 +30,7 @@ const Header = () => {
       <Navbar expand="lg" className="bg-white py-3 shadow-sm" expanded={expanded}>
         <Container>
           <Navbar.Brand as={NavLink} to="/" onClick={() => setExpanded(false)}>
-            <img src="logo_homeopathy.png" alt="logo" height="80" />
+            <img src="logo_homeopathy.png" alt="logo" height="100" />
           </Navbar.Brand>
 
           <Navbar.Toggle aria-controls="basic-navbar-nav" onClick={() => setExpanded(!expanded)} />
