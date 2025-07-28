@@ -36,7 +36,7 @@ function App() {
             <Route path="/gallery" element={<Gallery />} />
             <Route path="/contact" element={<Contact />} />
             <Route path="/doctor/:id" element={<DoctorProfile />} />
-            <Route path="/pediatrics" element={<Paediatrics />} />
+            <Route path="/pediatrics/doctor/:id" element={<Paediatrics />} />
             <Route path="*" element={<NotFound/>} />
           </Routes>
           <WhatsAppButton/>

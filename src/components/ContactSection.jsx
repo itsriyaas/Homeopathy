@@ -6,11 +6,16 @@ import LocationsSection from './Locations';
 const ContactUsSection = () => {
   return (
     <section className="container contact-section py-5 bg-white">
+      <h2 className="fw-bold mb-4 text-center">Our Locations</h2>
       <Container>
         <Row className="align-items-center g-5">
           {/* Contact Info & Social */}
-          <Col lg={6}>
-            <div className="links mb-4">
+          <Col lg={12}>
+             <LocationsSection/>
+          </Col>
+
+        </Row>
+        <div className="links mb-4 mt-5">
               <a href='https://maps.app.goo.gl/3CbZEcRXupegskwB9' target='_blank'><p className="mb-2"><FaMapMarkerAlt className="me-2 text-success" />Kaipamangalam - Aravushala Rd, Moonnupeedika, Kerala 680681</p></a>
               <a href='mailto:info@bodymindhomeopathy.com' target='_blank'><p className="mb-2"><FaEnvelope className="me-2 text-success" />info@bodymindhomeopathy.com</p></a>
               <a href='tel:04924246150' target='_blank'><p className="mb-4"><FaPhoneAlt className="me-2 text-success" />04924 246 150</p></a>
@@ -44,13 +49,6 @@ const ContactUsSection = () => {
                 <Button variant="success" className="w-100 rounded-pill">Submit</Button>
               </Form>
             </div>
-          </Col>
-
-          {/* Image Right */}
-          <Col lg={6} className="text-center">
-            <LocationsSection/>
-          </Col>
-        </Row>
       </Container>
     </section>
   );

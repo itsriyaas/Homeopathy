@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { Col, Container, Row } from 'react-bootstrap';
 
 const locations = [
   {
@@ -27,39 +28,44 @@ const LocationsSection = () => {
   const [selectedIndex, setSelectedIndex] = useState(0);
 
   return (
-    <section className="container locations-section py-5">
-      <div className="container">
-        <h2 className="fw-bold mb-4">Our Locations</h2>
-        <div className="row g-3 mb-4">
-          {locations.map((loc, index) => (
-            <div
-              key={index}
-              className={`col-md-4`}
-              onClick={() => setSelectedIndex(index)}
-              style={{ cursor: 'pointer' }}
-            >
+        <Container>
+          <Row className="align-items-center g-5">
+          {/* Contact Info & Social */}
+          <Col lg={6}>
+           <div className="row g-3 mb-4">
+            {locations.map((loc, index) => (
               <div
-                className={`p-4 border rounded-3 h-100 ${
-                  selectedIndex === index ? 'border-dark shadow' : ''
-                }`}
+                key={index}
+                className={`col-md-4`}
+                onClick={() => setSelectedIndex(index)}
+                style={{ cursor: 'pointer' }}
               >
-                <p className="text-muted small mt-2 mb-0">{loc.address}</p>
+                <div
+                  className={`p-4 border rounded-3 h-100 ${
+                    selectedIndex === index ? 'border-dark shadow' : ''
+                  }`}
+                >
+                  <p className="text-muted small mt-2 mb-0">{loc.address}</p>
+                </div>
               </div>
-            </div>
-          ))}
-        </div>
+            ))}
+          </div>
+          </Col>
 
-        <div className="ratio ratio-16x9">
-          <iframe
-            src={locations[selectedIndex].mapUrl}
-            title={locations[selectedIndex].country}
-            style={{ border: 0 }}
-            allowFullScreen=""
-            loading="lazy"
-          ></iframe>
-        </div>
-      </div>
-    </section>
+          {/* Image Right */}
+          <Col lg={6} className="text-center">
+            <div className="ratio ratio-16x9">
+            <iframe
+              src={locations[selectedIndex].mapUrl}
+              title={locations[selectedIndex].country}
+              style={{ border: 0 }}
+              allowFullScreen=""
+              loading="lazy"
+            ></iframe>
+          </div>
+          </Col>
+        </Row>
+        </Container>
   );
 };
 

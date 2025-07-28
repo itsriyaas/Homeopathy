@@ -5,7 +5,7 @@ const AboutUsSection = () => {
     return (
         <section className="container about-us-section py-5">
             <div className="container">
-                <div className="row align-items-center g-5">
+                <div className="row g-5">
                     {/* Text Column */}
                     <div className="col-md-6" data-aos="fade-right">
                         <small className='subheading fw-bold'>ABOUT US</small>
@@ -40,7 +40,7 @@ const AboutUsSection = () => {
             </div>
             {/* Doctor 2 */}
             <div className="container mt-5">
-                <div className="row align-items-center g-5">
+                <div className="row g-5">
                      {/* Image Column */}
                     <div className="col-md-6 text-center" data-aos="fade-right">
                         <img
