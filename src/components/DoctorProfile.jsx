@@ -86,6 +86,11 @@ const DoctorProfile = () => {
             <a href=''><FaFacebook color='#4267B2' className='fs-3'/></a>
             </div>
           )}
+          { id === 'sureshkumar' && (
+            <div className='social d-flex'>
+            <a href='https://www.facebook.com/BMHRC' target='_blank'><FaFacebook color='#4267B2' className='fs-3'/></a>
+            </div>
+          )}
         </div>
 
         {/* Show FAQ only for Dr. Aiswarya */}
