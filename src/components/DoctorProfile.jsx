@@ -5,6 +5,8 @@ import AOS from 'aos';
 import 'aos/dist/aos.css';
 import FaqSection from './FaqDoc1'; // FAQ for Dr. Aiswarya
 import { FaFacebook, FaInstagram } from 'react-icons/fa';
+import Testimonials from './Testimonials';
+import { Card, Col, Container, Row } from 'react-bootstrap';
 
 const DoctorProfile = () => {
   const { id } = useParams();
@@ -21,6 +23,59 @@ const DoctorProfile = () => {
       </div>
     );
   }
+  const clinics = [
+    {
+    location: 'Dr. Aiswarya M S Homeopathic Clinic',
+    description: 'Located at opposite National school, Irinjalakuda, Kerala 680121',
+     time:'Monday - Saturday',
+    doctors:'Dr. Aiswarya M.S',
+    map:'https://maps.app.goo.gl/b8MA47m9kfnrkPjX8',
+    url:'tel:918547029080'
+  },
+  {
+    location: 'Body Mind Homoeopathic Research Centre',
+    description: 'Located at Moonnupeedika, Kerala 680681',
+     time:'Monday - Saturday',
+    doctors:'Dr. B. Suresh Kumar, Dr. Aiswarya M.S',
+    map:'https://maps.app.goo.gl/uhdVP7aMXd1QUXCYA',
+    url:'tel:919349021110'
+  }
+  ]
+
+  const clinics2 = [
+    {
+    location: 'Body Mind Homoeopathic Research Centre, Since 1990',
+    description: 'Located near Mother Hospital, Olari, Thrissur 680003',
+    time:'Monday - Saturday',
+    doctors:'Dr. B. Suresh Kumar, Dr Praveen Dharma rathnam D.H.M.S, Dr. Sheneefa BHMS',
+    map:'https://maps.app.goo.gl/p3DgEHTck3wkc2oA9',
+    url:'tel:919072392110'
+
+  },{
+    location: 'Body Mind Homoeopathic Research Centre',
+    description: 'Located at Moonnupeedika, Kerala 680681',
+     time:'Monday - Saturday',
+    doctors:'Dr. B. Suresh Kumar, Dr. Aiswarya M.S',
+    map:'https://maps.app.goo.gl/uhdVP7aMXd1QUXCYA',
+    url:'tel:919349021110'
+  },
+  {
+    location: 'Body Mind Homoeopathic Research Centre',
+    description: 'Located at Kalladikode, Karimba South, Kerala 678596',
+     time:'Monday - Saturday',
+    doctors:'Dr. B. Suresh Kumar',
+    map:'https://maps.app.goo.gl/i3731CDDYq5Jsdb89',
+    url:'tel:919387836559'
+  },
+  {
+    location: 'Body Mind Homoeopathic Research Centre',
+    description: 'Located at KNP Puram, Odakkadu, Tiruppur, Tamil Nadu 641687',
+     time:'Monday - Saturday',
+    doctors:'Dr. B. Suresh Kumar,  Dr Sameena. BHMS',
+    map:'https://maps.app.goo.gl/Zc6xXtVpCvkvkmzs6',
+    url:'tel:916238592169'
+  },
+  ]
 
   return (
     <section className="container py-5 doctor-profile-section bg-white">
@@ -73,13 +128,42 @@ const DoctorProfile = () => {
 
         <div className="mt-5">
           <h2 className='fw-bold'>Contact & Appointments:</h2>
-          { id === 'aiswarya' && (<p><strong>Dr Aiswarya Pediatric Homeo clinic</strong> <br /> Irinjalakuda,Thrissur
-            Branch-kaipamangalam, moonupeedika <br />
-            <span><span style={{color:"black",fontWeight:"bold"}}>Booking :</span> <br />8547029080 <br />8547003873</span></p>)}
-          <a href={doctor.contact} className='btn btn-outline-success'>BOOK NOW</a>
+          { id === 'aiswarya' && (
+            <Container>
+              <Row className="g-4">
+          {clinics.map((clinics, index) => (
+            <Col key={index} xs={12} sm={6} md={4} data-aos="zoom-in">
+              <Card className="h-100 text-center shadow-sm border-0 p-4">
+                <Card.Title className="fw-bold">{clinics.location}</Card.Title>
+                <Card.Text className="text-muted small">{clinics.description}</Card.Text>
+                <Card.Text className="text-muted small">{clinics.time}</Card.Text>
+                <a href={clinics.map} target='_blank' className="btn btn-outline-primary rounded-pill px-4 py-2">GET DIRECTIONS</a>
+                <a href={clinics.url} className="btn btn-outline-success rounded-pill px-4 py-2 mt-3">BOOK APPOINTMENT</a>
+              </Card>
+            </Col>
+          ))}
+        </Row>
+            </Container>
+          )}
+
+           { id === 'sureshkumar' && (<Container>
+              <Row className="g-4">
+          {clinics2.map((clinics2, index) => (
+            <Col key={index} xs={12} sm={6} md={4} data-aos="zoom-in">
+              <Card className="h-100 text-center shadow-sm border-0 p-4">
+                <Card.Title className="fw-bold">{clinics2.location}</Card.Title>
+                <Card.Text className="text-muted small">{clinics2.description}</Card.Text>
+                <Card.Text className="text-muted small">{clinics2.time}</Card.Text>
+                <a href={clinics2.map} target='_blank' className="btn btn-outline-primary rounded-pill px-4 py-2">GET DIRECTIONS</a>
+                <a href={clinics2.url} className="btn btn-outline-success rounded-pill px-4 py-2 mt-3">BOOK APPOINTMENT</a>
+              </Card>
+            </Col>
+          ))}
+        </Row>
+            </Container>)}
         </div>
 
-         <div className="mt-5">
+         <div className="mt-5 mb-5">
           <h2 className='fw-bold'>Follow Us :</h2>
           { id === 'aiswarya' && (
             <div className='social d-flex'><a href='https://www.instagram.com/dr_aiswarya_pediatric_clinic' target='_blank'><FaInstagram color='red' className='me-2 fs-3' /></a>
@@ -99,6 +183,7 @@ const DoctorProfile = () => {
             <FaqSection />
           </div>
         )}
+        <Testimonials />
       </div>
     </section>
   );

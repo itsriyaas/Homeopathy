@@ -11,7 +11,7 @@ const locations = [
     mapUrl: 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3925.2253347215847!2d76.1468082!3d10.323843499999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ba7f598f1c0d961%3A0xa04190460139c238!2sDr.%20AISWARYA%20M.S!5e0!3m2!1sen!2sin!4v1752228511844!5m2!1sen!2sin',
   },
   {
-    address: '486Q+P6M, KNP Puram, Odakkadu, Tiruppur, Tamil Nadu 641687',
+    address: '486Q+P6M, KNP Puram, Odakkadu, Tirupur, Tamil Nadu 641687',
     mapUrl: 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3915.0208227837134!2d77.3380316!3d11.1118259!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ba907a9187d33fd%3A0xfe847d6c6a6dba66!2sTirupur%20Towers!5e0!3m2!1sen!2sin!4v1752228549097!5m2!1sen!2sin',
   },
   {

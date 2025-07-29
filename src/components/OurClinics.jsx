@@ -11,7 +11,7 @@ const clinics = [
     time:'Monday - Saturday',
     doctors:'Dr. B. Suresh Kumar, Dr Praveen Dharma rathnam D.H.M.S, Dr. Sheneefa BHMS',
     map:'https://maps.app.goo.gl/p3DgEHTck3wkc2oA9',
-    url:'tel:919747531115'
+    url:'tel:919072392110'
 
   },
   {

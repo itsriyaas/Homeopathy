@@ -7,52 +7,54 @@ import { SlArrowDown, SlArrowUp } from 'react-icons/sl';
 
 const initialServices = [
   {
-    title: 'Treatment of Cancer',
-    icon: <FaNotesMedical size={40} className="text-success" />,
-    description: 'Integrative homeopathy care for various types of cancer using holistic, personalized approaches.',
+    title: 'Allergy & Asthma',
+    icon: <FaAllergies size={40} className="text-success" />,
+    description: 'Effective, permanent cure of respiratory allergies, asthma, and sinusitis without steroids',
   },
+  
   {
     title: 'Gastrointestinal Disorders',
     icon: <FaStethoscope size={40} className="text-primary" />,
-    description: 'Relief from acidity, IBS, ulcers, and digestive issues through targeted remedies.',
+    description: 'Treatment for IBS, acidity, ulcers, constipation, and indigestion using individualized remedies.',
   },
   {
-    title: 'Treatment of Psoriasis',
+    title: 'Skin Diseases',
     icon: <FaAllergies size={40} className="text-danger" />,
-    description: 'Homeopathic management for autoimmune skin conditions like psoriasis.',
+    description: 'Homeopathy offers lasting relief for eczema, psoriasis, urticaria, acne, and fungal infections.',
   },
-  {
-    title: 'Acne Treatment',
-    icon: <FaUserMd size={40} className="text-warning" />,
-    description: 'Personalized acne care rooted in internal healing, not just surface treatment.',
+    {
+    title: 'Pediatric Disorders',
+    icon: <FaUserMd size={40} className="text-danger" />,
+    description: 'Gentle and safe treatment for childhood issues including ADHD, autism and recurrent infections.',
   },
+ 
   {
-    title: 'Treatment of Erectile Dysfunction',
+    title: 'Menstrual & Hormonal Disorders',
     icon: <FaHeartbeat size={40} className="text-dark" />,
-    description: 'Safe, side-effect-free solutions for male sexual health and performance.',
+    description: 'Natural regulation of PCOS, thyroid imbalances, menstrual irregularities, and menopause symptoms.',
   },
   {
     title: 'Treatment of Anxiety and Depression',
     icon: <RiMentalHealthFill size={40} className="text-dark" />,
-    description: 'Homeopathic care addressing the root causes of anxiety and depression to restore emotional balance.',
+    description: 'Emotional healing through deep-acting constitutional remedies for mental wellness.',
   },
 ];
 
 const moreServices = [
   {
-    title: 'Migraine & Headache Relief',
+    title: 'Migraine & Headache',
     icon: <FaStethoscope size={40} className="text-info" />,
-    description: 'Targeted remedies for chronic headaches and migraines without side effects.',
+    description: 'Targeted remedies for chronic migraine, tension headaches, and stress-related head pain.',
   },
   {
-    title: 'Allergy Management',
-    icon: <FaAllergies size={40} className="text-success" />,
-    description: 'Holistic approach to seasonal and food allergies using safe homeopathic solutions.',
+    title: 'Arthritis & Joint Pain',
+    icon: <FaNotesMedical size={40} className="text-success" />,
+    description: 'Relief from osteoarthritis, rheumatoid arthritis, back pain, and spondylitis without side effects.',
   },
-  {
-    title: 'Pediatric Care',
-    icon: <FaUserMd size={40} className="text-danger" />,
-    description: 'Gentle and effective homeopathy for common childhood illnesses and disorders.',
+ {
+    title: 'Hair & Scalp Problems',
+    icon: <FaUserMd size={40} className="text-warning" />,
+    description: 'Holistic solutions for hair fall, dandruff, alopecia areata, and premature greying.',
   },
 ];
 
@@ -63,7 +65,7 @@ const ServicesSection = () => {
     <section className="services-section py-5">
       <Container>
         <div className="text-center mb-5" data-aos="fade-down">
-          <h2 className="fw-bold display-5">Our Services</h2>
+          <h2 className="fw-bold display-5">Our Specialization</h2>
           <p className="text-muted">Natural, safe and effective treatments tailored for your well-being</p>
         </div>
 

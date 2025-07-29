@@ -38,7 +38,7 @@ const Header = () => {
           <Navbar.Collapse id="basic-navbar-nav" className="justify-content-center">
             <Nav className="gap-md-3 fw-bold">
               {['/', '/about-us', '/services','/pediatrics/doctor/aiswarya','/blog', '/gallery', '/contact'].map((path, idx) => {
-                const labels = ['HOME', 'ABOUT US', 'SERVICES','PAEDIATRICS','BLOG', 'GALLERY', 'CONTACT'];
+                const labels = ['HOME', 'ABOUT US', 'SPECIALITIES','PAEDIATRICS','BLOG', 'GALLERY', 'CONTACT'];
                 return (
                   <NavLink
                     key={path}
