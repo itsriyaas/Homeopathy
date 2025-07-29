@@ -19,7 +19,7 @@ const HeroSection = () => {
             </p>
             <div className="d-flex flex-wrap gap-3 mt-4 justify-content-center justify-content-md-start">
               <Link to={'/about-us'} className="btn btn-success rounded-pill px-4 py-2">Discover More</Link>
-              <Link to={'/services'} className="btn btn-primary rounded-pill px-4 py-2">See All Services</Link>
+              <Link to={'/services'} className="btn btn-primary rounded-pill px-4 py-2">See All Specialities</Link>
             </div>
           </div>
 
