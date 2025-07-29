@@ -6,7 +6,7 @@ function Paediatrics() {
   return (
     <>
      <Helmet>
-        <title>Paediatrics</title>
+        <title>Dr. Aiswaryas Pediatric Homeo Clinic</title>
         <meta name="description" content="Pediatric Homeopathy Irinjalakuda" />
         <meta property="og:title" content="Pediatric Homeopathy Irinjalakuda" />
         <meta property="og:description" content="Best Homeopathic Clinic for Allergy and Child Behavior in Kerala" />
