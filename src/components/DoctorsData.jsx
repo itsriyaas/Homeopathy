@@ -6,7 +6,7 @@ const doctorsData = [
     qualifications: 'B.Sc, B.H.M.S, M.D (Hom), PG.Dip.IACH (Greece), S.C.P.H+, P.G.Hom (London)',
     image: '/assets/doctors/drsureshkumar.png',
     contact:'tel:919339021110',
-    description: `Dr. B. Suresh Kumar is a Senior homoeopath consultant with over 36 years of clinical experience, renowned for his expertise in treating complex and so-called incurable diseases. He is the Director and Chief Physician at the Body Mind Homoeopathic Research Centre in Kerala, India, with branches in Ayyanthol Thrissur, Moonnupeedika Kodungaloor, and Kalladikode, Palakkad, and KNP Puram Tirupur`, // full bio
+    description: `Dr. B. Suresh Kumar is a Senior homoeopath consultant with over 36 years of clinical experience, renowned for his expertise in treating complex and so-called incurable diseases. He is the Director and Chief Physician at the Body Mind Multispeciality Homoeopathic Clinic in Kerala, India, with branches in Ayyanthol Thrissur, Moonnupeedika Kodungaloor, and Kalladikode, Palakkad, and KNP Puram Tirupur`, // full bio
     specializations: [
       'Allergy & Asthma',
       'Pediatric Disorders',
