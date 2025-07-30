@@ -6,16 +6,15 @@ import { FaHeartbeat, FaStethoscope, FaAllergies, FaUserMd, FaNotesMedical } fro
 
 const clinics = [
   {
-    location: 'Body Mind Homoeopathic Research Centre, Since 1990',
-    description: 'Located near Mother Hospital, Olari, Thrissur 680003',
-    time:'Monday - Saturday',
-    doctors:'Dr. B. Suresh Kumar, Dr Praveen Dharma rathnam D.H.M.S, Dr. Sheneefa BHMS',
-    map:'https://maps.app.goo.gl/p3DgEHTck3wkc2oA9',
-    url:'tel:919072392110'
-
+    location: 'Dr. Aiswarya M S Homeopathic Clinic',
+    description: 'Located at opposite National school, Irinjalakuda, Kerala 680121',
+     time:'Monday - Saturday',
+    doctors:'Dr. Aiswarya M.S',
+    map:'https://maps.app.goo.gl/b8MA47m9kfnrkPjX8',
+    url:'tel:918547029080'
   },
   {
-    location: 'Body Mind Homoeopathic Research Centre',
+    location: 'Body Mind Multispeciality Homoeopathic Clinic',
     description: 'Located at Moonnupeedika, Kerala 680681',
      time:'Monday - Saturday',
     doctors:'Dr. B. Suresh Kumar, Dr. Aiswarya M.S',
@@ -23,7 +22,7 @@ const clinics = [
     url:'tel:919349021110'
   },
   {
-    location: 'Body Mind Homoeopathic Research Centre',
+    location: 'Body Mind Multispeciality Homoeopathic Clinic',
     description: 'Located at Kalladikode, Karimba South, Kerala 678596',
      time:'Monday - Saturday',
     doctors:'Dr. B. Suresh Kumar',
@@ -32,22 +31,23 @@ const clinics = [
   },
   {
     location: 'Dr. Aiswarya M S Homeopathic Clinic',
-    description: 'Located at Aravushala Rd, Moonnupeedika, Kerala 680681',
+    description: 'Located Near HPCL Petrol pump, Moonnupeedika, Kerala 680681',
      time:'Monday - Saturday',
     doctors:'Dr. Aiswarya M.S',
     map:'https://maps.app.goo.gl/m6Hm33grUN846L3c8',
     url:'tel:918547003873'
   },
   {
-    location: 'Dr. Aiswarya M S Homeopathic Clinic',
-    description: 'Located at opposite National school, Irinjalakuda, Kerala 680121',
-     time:'Monday - Saturday',
-    doctors:'Dr. Aiswarya M.S',
-    map:'https://maps.app.goo.gl/b8MA47m9kfnrkPjX8',
-    url:'tel:918547029080'
+    location: 'Body Mind Multispeciality Homoeopathic Clinic, Since 1990',
+    description: 'Located near Mother Hospital, Olari, Thrissur 680003',
+    time:'Monday - Saturday',
+    doctors:'Dr. B. Suresh Kumar, Dr Praveen Dharma rathnam D.H.M.S, Dr. Sheneefa BHMS',
+    map:'https://maps.app.goo.gl/p3DgEHTck3wkc2oA9',
+    url:'tel:919072392110'
+
   },
    {
-    location: 'Body Mind Homoeopathic Research Centre',
+    location: 'Body Mind Multispeciality Homoeopathic Clinic',
     description: 'Located at KNP Puram, Odakkadu, Tiruppur, Tamil Nadu 641687',
      time:'Monday - Saturday',
     doctors:'Dr. B. Suresh Kumar,  Dr Sameena. BHMS',

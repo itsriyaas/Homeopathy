@@ -50,18 +50,19 @@ const AboutUsSection = () => {
                             className="img-fluid rounded-4 shadow"
                             style={{ maxHeight: '400px', objectFit: 'cover' }}
                         />
+                        <p className='mt-5 fst-italic'>"Being born into a family of healers, I've seen firsthand the power of homeopathy. I carry forward this legacy with dedication, empathy, and modern clinicalinsight." <br />- Dr. Aiswarya M.S</p>
                     </div>
                     {/* Text Column */}
                     <div className="col-md-6" data-aos="fade-right">
-                        <h2 className="fw-bold mb-3">Dr. Aiswarya M.S - Homoeopathic Paediatrician</h2>
+                        <h2 className="fw-bold mb-3">Dr Aiswarya M.S, B.H.M.S,MD(HOM) PAEDIATRICS,D. YOGA</h2>
                         <p className='text-muted'>
-                            Continuing the legacy of care, <strong>Dr. Aiswarya M.S</strong>, daughter of <strong>Dr. Suresh</strong>, brings a modern approach to holistic healing, specializing in pediatric cases.
+                            Continuing the legacy of care, <strong>Dr. Aiswarya M.S</strong>, daughter of <strong>Dr.B. Suresh Kumar</strong>, brings a modern approach to holistic healing, specializing in pediatric cases.
                         </p>
                         <p className="text-muted">
                             At our clinic, we are committed to offering compassionate, holistic, and evidence-based homeopathic care to children. Led by <strong>Dr. Aiswarya</strong>, a dedicated pediatric homeopathic physician, we specialize in treating a wide range of childhood conditions with a personalized and gentle approach.
                         </p>
                         <p className="text-muted">
-                           <strong>Dr. Aiswarya M.S</strong> is a skilled and compassionate Homoeopathic Paediatrician with over 6 years of clinical experience, known for her dedicated work in treating pediatric neurological, behavioral, and respiratory disorders. She holds a B.H.M.S and M.D in Paediatrics from Sarada Krishna Homoeopathic Medical College, Tamil Nadu, and also holds a Diploma in Yoga, reflecting her holistic approach to wellness. Dr. Aiswarya was honored with the Best Researcher Award by the Central Council for Research in Homoeopathy (CCRH), New Delhi, for her groundbreaking thesis on the Effectiveness of Homoeopathy in the Treatment of Epilepsy Among Children, successfully treating over 30 pediatric cases of epileptiform fits with homoeopathic remedies. She has extensive clinical experience in treating childhood allergies and asthma, focusing on long-term relief through individualized homeopathic treatment.
+                           <strong>Dr. Aiswarya M.S</strong> is a skilled and compassionate Homoeopathic Paediatrician with over 6 years of clinical experience, known for her dedicated work in treating pediatric neurological, behavioral, and respiratory disorders. She holds a B.H.M.S and M.D in Paediatrics from Sarada Krishna Homoeopathic Medical College, Tamil Nadu, and also holds a Diploma in Yoga, reflecting her holistic approach to wellness. Dr. Aiswarya was honored with the Best Researcher Award by the Central Council for Research in Homoeopathy (CCRH), New Delhi, for her groundbreaking thesis on the Effectiveness of Homoeopathy in the Treatment of Epilepsy Among Children, successfully treating over 30 pediatric cases of epileptiform fits with homoeopathic remedies. She has extensive clinical experience in treating childhood allergies and asthma, focusing on Permanent cure through individualized homeopathic treatment.
 
                         </p>
                         <p className='text-muted fw-bold'>Specialisations :</p>
@@ -73,7 +74,7 @@ const AboutUsSection = () => {
                             <li>Autism</li>
                             <li>Learning Disorders</li>
                         </ul>
-                        <p className='text-muted'>At <strong>Body Mind Homoeopathic Research Centre</strong>, Dr. Aiswarya serves as a pediatric consultant across centers in Thrissur (Near Mother Hospital - Ayyanthole), Moonupeedika, and Kalladikode (Palakkad).</p>
+                        <p className='text-muted'>At <strong>Body Mind Multispeciality Homoeopathic Clinic</strong>, Dr. Aiswarya serves as a pediatric consultant across centers in Thrissur (Near Mother Hospital - Ayyanthole), Moonupeedika, and Irinjalakkuda.</p>
                         <Link to="/doctor/aiswarya" className="btn btn-success rounded-pill px-4 mt-3">Learn More</Link>
 
                     </div>

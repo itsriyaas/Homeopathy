@@ -25,7 +25,7 @@ const DoctorProfile = () => {
   }
   const clinics = [
     {
-    location: 'Dr. Aiswarya M S Homeopathic Clinic',
+    location: 'Dr. Aiswarya M S Multispeciality Homeopathic Clinic',
     description: 'Located at opposite National school, Irinjalakuda, Kerala 680121',
      time:'Monday - Saturday',
     doctors:'Dr. Aiswarya M.S',
@@ -33,8 +33,8 @@ const DoctorProfile = () => {
     url:'tel:918547029080'
   },
   {
-    location: 'Body Mind Homoeopathic Research Centre',
-    description: 'Located at Moonnupeedika, Kerala 680681',
+    location: 'Body Mind Multispeciality Homoeopathic Clinic',
+    description: 'Located Near HPCL Petrol pump, Moonnupeedika, Kerala 680681',
      time:'Monday - Saturday',
     doctors:'Dr. B. Suresh Kumar, Dr. Aiswarya M.S',
     map:'https://maps.app.goo.gl/uhdVP7aMXd1QUXCYA',
@@ -96,6 +96,8 @@ const DoctorProfile = () => {
           </div>
 
           <div className="col-md-8" data-aos="fade-right">
+            {id === 'aiswarya' && (<h5 className='fw-bold'>Dr. Aiswarya M.S</h5>)}
+            {id === 'aiswarya' && (<p className='fw-bold text-muted'>Homoeopathic Pediatrician | Researcher</p>)}
             <p>{doctor.description}</p>
 
             <h5 className="mt-4 fw-bold">Specializations :</h5>
@@ -105,9 +107,16 @@ const DoctorProfile = () => {
               ))}
             </ul>
 
-            <h5 className="mt-4">Recognitions & Memberships</h5>
+            <h5 className="mt-4 fw-bold">Recognitions & Memberships</h5>
             <ul>
               {doctor.recognitions.map((rec, index) => (
+                <li key={index}>{rec}</li>
+              ))}
+            </ul>
+            {id === 'aiswarya' && (<h5 className="mt-4 fw-bold">Research & Publications</h5>)}
+             { id === 'aiswarya' && (<p>She is an avid writer and has published several articles in reputed pediatric journals, including:</p>)}
+            <ul>
+              {doctor.publications.map((rec, index) => (
                 <li key={index}>{rec}</li>
               ))}
             </ul>

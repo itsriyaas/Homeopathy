@@ -4,7 +4,7 @@ import { Accordion, Container } from 'react-bootstrap';
 const faqData = [
   {
     question: "Which area does Dr. Aiswarya M.S practice?",
-    answer: "Dr. Aiswarya M.S is a paediatrician practicing in Moonnupeedika.",
+    answer: "Dr. Aiswarya M.S is a paediatrician practicing in Moonnupeedika and Irinjalakuda, Thrissur.",
   },
   {
     question: "Why do patients visit Dr. Aiswarya M.S?",
@@ -28,7 +28,7 @@ const faqData = [
   },
   {
     question: "How many years of experience does Dr. Aiswarya M.S have?",
-    answer: "Dr. Aiswarya M.S has over 11 years of clinical experience.",
+    answer: "Dr. Aiswarya M.S has over 6 years of clinical experience.",
   },
 ];
 

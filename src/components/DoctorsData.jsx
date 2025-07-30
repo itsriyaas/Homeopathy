@@ -24,17 +24,21 @@ const doctorsData = [
       '25 Years of Service Award - IHMA, Thrissur (2015)',
       'Awarded by IHMA for Incurable Diseases Paper (2016)',
       'Zone Chairman - Lions Club Intl. (2017)'
-    ]
+    ],
+    publications:[
+
+    ],
   },
   {
     id: 'aiswarya',
-    name: 'Welcome to Dr. Aiswaryas Pediatric Homeo Clinic',
-    qualifications: 'B.H.M.S and M.D in Paediatrics',
+    name: 'Welcome to Dr. Aiswarya’s Pediatric Homeo Clinic',
+    qualifications: 'B.H.M.S,MD(HOM) PAEDIATRICS,D. YOGA',
     image: '/assets/doctors/draishwarya.jpg',
     contact:'tel:918547029080',
-    description: 'Dr. Aiswarya M.S is a skilled and compassionate Homoeopathic Paediatrician with over 6 years of clinical experience, known for her dedicated work in treating pediatric neurological, behavioral, and respiratory disorders. She holds a B.H.M.S and M.D in Paediatrics from Sarada Krishna Homoeopathic Medical College, Tamil Nadu, and also holds a Diploma in Yoga, reflecting her holistic approach to wellness. Dr. Aiswarya was honored with the Best Researcher Award by the Central Council for Research in Homoeopathy (CCRH), New Delhi, for her groundbreaking thesis on the Effectiveness of Homoeopathy in the Treatment of Epilepsy Among Children, successfully treating over 30 pediatric cases of epileptiform fits with homoeopathic remedies. She has extensive clinical experience in treating childhood allergies and asthma, focusing on long-term relief through individualized homeopathic treatment.',
+    description: 'Dr. Aiswarya M.S is a compassionate and skilled Homoeopathic Pediatrician from Irinjalakuda, Thrissur, with over 6 years of clinical experience in treating a wide range of pediatric and behavioral disorders using predictive and classical homeopathy.She is a recipient of the Best Researcher Award from the Central Council for Research in Homoeopathy (CCRH), New Delhi, for her landmark study titled “Effectiveness of Homoeopathy in the Treatment of Epilepsy Among Children” In this clinical research, she successfully treated  30 children with epileptiform fits, showcasing the efficacy of homeopathy in managing neurological conditions.',
     specializations: ['Allergy','Asthma','Developmental delay','Adenoids','Thyroid disorders','Speech delay','Learning disorders','Autism','ADHD(Hyperactivity)','Epilepsy (fits)','PCOS(ovary cyst)','Newborn diseases'],
-    recognitions: ['MD Post Graduate Examination Topper in Pediatrics, Dr. MGR University, 2020','Scholarship for Quality MD Dissertation in Homeopathy, 2020','Published Article: "Feeding and Nutrition for a 2-Year-Old" – Nestlin Meadow, Pediatric Journal, 2019','Paper Presentation: "An Insight into Anti-Inflammatory Property of St. Ignatius Bean" – International Conference on Homeopathy and Phytomedicine, 2018','Best Dissertation Award: Central Council for Research in Homeopathy – Effectiveness of Homeopathy in the Treatment of Epilepsy Among Children, 2018','Special Invitee – World Homeopathy Day, New Delhi, 2019','Poster Presentation – Epilepsy in Children, World Homeopathy Day, New Delhi']
+    recognitions: ['MD Post Graduate Examination Topper in Pediatrics, Dr. MGR University, 2020','Scholarship for Quality MD Dissertation in Homeopathy, 2020','Published Article: "Feeding and Nutrition for a 2-Year-Old" – Nestlin Meadow, Pediatric Journal, 2019','Paper Presentation: "An Insight into Anti-Inflammatory Property of St. Ignatius Bean" – International Conference on Homeopathy and Phytomedicine, 2018','Best Dissertation Award: Central Council for Research in Homeopathy – Effectiveness of Homeopathy in the Treatment of Epilepsy Among Children, 2018','Special Invitee – World Homeopathy Day, New Delhi, 2019','Poster Presentation – Epilepsy in Children, World Homeopathy Day, New Delhi'],
+    publications:['An Insight into Anti-inflammatory Properties of St. Ignatius Bean','Feeding and Nutrition Tips for a 2-Year-Old','Valproic Acid in Neural Tube Defect and the Role of Homeopathy']
   }
 ];
 

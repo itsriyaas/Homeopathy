@@ -15,7 +15,7 @@ const HeroSection = () => {
              Welcome to <span className="highlight-green">Body Mind</span><br /> Multispeciality Homoeopathic Clinic
             </h1>
             <p className="mt-3 text-muted">
-              Body Mind Homoeopathic Research Centre, we believe true healing goes beyond physical ailments it encompasses the body, mind, and soul. Our center is founded on the principles of classical homoeopathy, with a strong focus on individualized care, scientific research, and holistic well-being.
+              Body Mind Multispeciality Homoeopathic Clinic, we believe true healing goes beyond physical ailments it encompasses the body, mind, and soul. Our center is founded on the principles of classical homoeopathy, with a strong focus on individualized care, scientific research, and holistic well-being.
             </p>
             <div className="d-flex flex-wrap gap-3 mt-4 justify-content-center justify-content-md-start">
               <Link to={'/about-us'} className="btn btn-success rounded-pill px-4 py-2">Discover More</Link>
