@@ -32,7 +32,7 @@ const doctorsData = [
   {
     id: 'aiswarya',
     name: 'Welcome to Dr. Aiswarya’s Pediatric Homeo Clinic',
-    qualifications: 'B.H.M.S,MD(HOM) PAEDIATRICS,D. YOGA',
+    qualifications: 'B.H.M.S,MD(HOM) PAEDIATRICS, D.YOGA',
     image: '/assets/doctors/draishwarya.jpg',
     contact:'tel:918547029080',
     description: 'Dr. Aiswarya M.S is a compassionate and skilled Homoeopathic Pediatrician from Irinjalakuda, Thrissur, with over 6 years of clinical experience in treating a wide range of pediatric and behavioral disorders using predictive and classical homeopathy.She is a recipient of the Best Researcher Award from the Central Council for Research in Homoeopathy (CCRH), New Delhi, for her landmark study titled “Effectiveness of Homoeopathy in the Treatment of Epilepsy Among Children” In this clinical research, she successfully treated  30 children with epileptiform fits, showcasing the efficacy of homeopathy in managing neurological conditions.',
