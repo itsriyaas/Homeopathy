@@ -23,7 +23,6 @@ const AboutUsSection = () => {
                             <li>P.G.Hom (London) from Hahnemann College of Homoeopathy, U.K.</li>
                         </ul>
                         <p className='text-muted'>He has trained under world-renowned homeopaths like Dr. George Vithoulkas, Dr. Praful Vijayakar, Misha Norland, and Rajan Sankaran, enriching his approach with both classical and predictive methodologies.</p>
-                        <p><strong>A Legacy of Healing, Rooted in Care.</strong> <br /><p className='text-muted'>Body Mind Homeopathy - Where Science Meets Sensitivity<br />At Body Mind Homeopathy, we believe true healing embraces both the body and the mind. Our clinic was founded on the values of compassionate care, individual attention, and evidence-based homeopathic practice.</p></p>
                         <Link to="/doctor/sureshkumar" className="btn btn-success rounded-pill px-4 mt-3">Learn More</Link>
 
                     </div>
@@ -36,6 +35,7 @@ const AboutUsSection = () => {
                             className="img-fluid rounded-4 shadow"
                             style={{ maxHeight: '400px', objectFit: 'cover' }}
                         />
+                        <p className='mt-5 fst-italic'><strong>A Legacy of Healing, Rooted in Care.</strong> <br /> "At Body Mind Homeopathy, we believe true healing embraces both the body and the mind. Our clinic was founded on the values of compassionate care, individual attention, and evidence-based homeopathic practice." <br />- Dr. B. Suresh Kumar</p>
                     </div>
                 </div>
             </div>

@@ -44,7 +44,7 @@ const DoctorProfile = () => {
 
   const clinics2 = [
     {
-    location: 'Body Mind Homoeopathic Research Centre, Since 1990',
+    location: 'Body Mind Multispeciality Homoeopathic Clinic, Since 1990',
     description: 'Located near Mother Hospital, Olari, Thrissur 680003',
     time:'Monday - Saturday',
     doctors:'Dr. B. Suresh Kumar, Dr Praveen Dharma rathnam D.H.M.S, Dr. Sheneefa BHMS',
@@ -52,7 +52,7 @@ const DoctorProfile = () => {
     url:'tel:919072392110'
 
   },{
-    location: 'Body Mind Homoeopathic Research Centre',
+    location: 'Body Mind Multispeciality Homoeopathic Clinic',
     description: 'Located at Moonnupeedika, Kerala 680681',
      time:'Monday - Saturday',
     doctors:'Dr. B. Suresh Kumar, Dr. Aiswarya M.S',
@@ -60,7 +60,7 @@ const DoctorProfile = () => {
     url:'tel:919349021110'
   },
   {
-    location: 'Body Mind Homoeopathic Research Centre',
+    location: 'Body Mind Multispeciality Homoeopathic Clinic',
     description: 'Located at Kalladikode, Karimba South, Kerala 678596',
      time:'Monday - Saturday',
     doctors:'Dr. B. Suresh Kumar',
@@ -68,7 +68,7 @@ const DoctorProfile = () => {
     url:'tel:919387836559'
   },
   {
-    location: 'Body Mind Homoeopathic Research Centre',
+    location: 'Body Mind Multispeciality Homoeopathic Clinic',
     description: 'Located at KNP Puram, Odakkadu, Tiruppur, Tamil Nadu 641687',
      time:'Monday - Saturday',
     doctors:'Dr. B. Suresh Kumar,  Dr Sameena. BHMS',
@@ -98,6 +98,8 @@ const DoctorProfile = () => {
           <div className="col-md-8" data-aos="fade-right">
             {id === 'aiswarya' && (<h5 className='fw-bold'>Dr. Aiswarya M.S</h5>)}
             {id === 'aiswarya' && (<p className='fw-bold text-muted'>Homoeopathic Pediatrician | Researcher</p>)}
+            {id === 'sureshkumar' &&(<h5 className='fw-bold'>Dr. B. Suresh Kumar</h5>)}
+            {id === 'sureshkumar' && (<p className='fw-bold text-muted'>Founder, Senior Homeopathic Physician</p>)}
             <p>{doctor.description}</p>
 
             <h5 className="mt-4 fw-bold">Specializations :</h5>
