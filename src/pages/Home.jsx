@@ -8,6 +8,7 @@ import BlogSection from '../components/BlogSection'
 import { Helmet } from 'react-helmet'
 import BookOnlineSection from '../components/BookOnline'
 import MedicineCourierSection from '../components/MedicineCourier'
+import TreatmentResults from '../components/TreatmentResults'
 
 function Home() {
   return (
@@ -24,6 +25,7 @@ function Home() {
     <MedicineCourierSection/>
     <ServicesSection/>
     <OurClinics/>
+    <TreatmentResults/>
     <BlogSection/>
     <Testimonials/>
     </>
