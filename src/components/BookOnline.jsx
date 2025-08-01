@@ -24,7 +24,7 @@ const BookOnlineSection = () => {
     e.preventDefault();
 
     // Example: Send to WhatsApp
-    const message = `New Appointment Request:%0AName: ${form.name}%0AEmail: ${form.email}%0APhone: ${form.phone}%0ADate: ${form.date}%0AMessage: ${form.message}`;
+    const message = `Online Consultation Appointment Request:%0AName: ${form.name}%0AEmail: ${form.email}%0APhone: ${form.phone}%0ADate: ${form.date}%0AMessage: ${form.message}`;
     window.open(`https://wa.me/918547003873?text=${message}`, '_blank');
 
     // Clear form

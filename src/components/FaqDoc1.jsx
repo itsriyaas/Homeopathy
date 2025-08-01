@@ -24,7 +24,7 @@ const faqData = [
   {
     question: "What is the address of Dr. Aiswarya M.S's clinic?",
     answer:
-      "Dr. Aiswarya M.S currently practices at BODY MIND HOMOEOPATHIC PAEDIATRIC CLINIC located at: MOONUPEEDIKA, NEAR TO HPCL PETROL PUMP, Aravusala East, Kaipamangalam P.O, Moonnupeedika. and Dr. Aiswarya M S Homeopathic Clinic Located at opposite National school, Irinjalakuda, Kerala",
+      "Dr. Aiswarya M.S currently practices at BODY MIND HOMOEOPATHIC PAEDIATRIC CLINIC located at: MOONUPEEDIKA, NEAR TO HPCL PETROL PUMP, Aravusala East, Kaipamangalam P.O, Moonnupeedika and Dr. Aiswarya M S Homeopathic Clinic Located at opposite National school, Irinjalakuda, Kerala",
   },
   {
     question: "How many years of experience does Dr. Aiswarya M.S have?",
