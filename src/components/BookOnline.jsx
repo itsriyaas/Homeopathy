@@ -83,6 +83,7 @@ const BookOnlineSection = () => {
                 />
               </Form.Group>
               <Form.Group className="mb-3">
+                <Form.Label>Appointment Date</Form.Label>
                 <Form.Control
                   type="date"
                   name="date"
