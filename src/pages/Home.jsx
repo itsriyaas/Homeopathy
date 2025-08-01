@@ -9,6 +9,7 @@ import { Helmet } from 'react-helmet'
 import BookOnlineSection from '../components/BookOnline'
 import MedicineCourierSection from '../components/MedicineCourier'
 import TreatmentResults from '../components/TreatmentResults'
+import InstagramFeed from '../components/InstagramPosts'
 
 function Home() {
   return (
@@ -27,6 +28,7 @@ function Home() {
     <OurClinics/>
     <TreatmentResults/>
     <BlogSection/>
+    <InstagramFeed/>
     <Testimonials/>
     </>
   )

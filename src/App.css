@@ -187,3 +187,18 @@
   text-decoration-color: #28a745;
   text-decoration-thickness: 3px;
 }
+/* Instafeed */
+.insta-card-wrapper {
+  position: relative;
+  overflow: hidden;
+}
+
+.caption-overlay {
+  background: rgba(0, 0, 0, 0.6);
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.insta-card-wrapper:hover .caption-overlay {
+  opacity: 1;
+}
