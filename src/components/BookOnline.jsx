@@ -38,17 +38,18 @@ const BookOnlineSection = () => {
   };
 
   return (
-    <section className="py-5 bg-light" id="book-online">
+    <section className="py-5" id="book-online">
       <Container>
-        <Row className="justify-content-center text-center mb-5">
+        <Row className="justify-content-center mb-5">
           <Col lg={8} data-aos="fade-up">
             <FaCalendarAlt className="text-success mb-3" size={40} />
-            <h2 className="fw-bold">Book Your Appointment Online</h2>
-            <p className="text-muted">Fill out the form for Doctor Consultation. We’ll get back to you shortly!</p>
+            <h2 className="fw-bold">Online Consultation</h2>
+            <p>Experience expert homeopathic care from the comfort of your home with our secure online consultation services. Whether you're across the city or in another country, our team is just a video call away.We offer consultations via popular platforms such as Zoom, Google Meet, and WhatsApp Video, ensuring flexible and confidential access to personalized treatment.</p>
           </Col>
         </Row>
 
         <Row className="justify-content-center">
+          <p className='text-muted text-center'>Fill out the form below for Online Consultation. We’ll get back to you shortly!</p>
           <Col md={10} lg={8}>
             <Form className="bg-white p-4 rounded shadow" onSubmit={handleSubmit} data-aos="fade-up">
               <Form.Group className="mb-3">
@@ -100,9 +101,10 @@ const BookOnlineSection = () => {
                   onChange={handleChange}
                 />
               </Form.Group>
-              <Button type="submit" className="w-100 btn-success rounded-pill">
-                Book Now
-              </Button>
+              
+               <button type="submit" className="btn btn-success rounded-pill px-4 shadow appointment-btn">
+                APPOINTMENT NOW
+              </button>
             </Form>
           </Col>
         </Row>
