@@ -182,11 +182,31 @@
 .links a{
   text-decoration: none;
 }
-.nav-link:hover{
-  text-decoration: underline;
-  text-decoration-color: #28a745;
-  text-decoration-thickness: 3px;
+.nav-link {
+  position: relative;
+  padding-bottom: 3px;
+  transition: color 0.3s ease;
 }
+
+.nav-link::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0%;
+  height: 2px;
+  background-color: #198754; /* Bootstrap's success green */
+  transition: width 0.3s ease;
+}
+
+.nav-link:hover {
+  color: #198754 !important; /* Green on hover */
+}
+
+.nav-link:hover::after {
+  width: 100%;
+}
+
 /* Instafeed */
 .insta-card-wrapper {
   position: relative;
