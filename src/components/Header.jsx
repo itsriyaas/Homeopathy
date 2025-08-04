@@ -30,7 +30,7 @@ const Header = () => {
       <Navbar expand="lg" className="bg-white py-3 shadow-sm" expanded={expanded}>
         <Container>
           <Navbar.Brand as={NavLink} to="/" onClick={() => setExpanded(false)}>
-            <img src="logo_homeopathy.png" alt="logo" height="100" />
+            <img src="logo_homeopathy.png" alt="logo" height="80" />
           </Navbar.Brand>
 
           <Navbar.Toggle aria-controls="basic-navbar-nav" onClick={() => setExpanded(!expanded)} />

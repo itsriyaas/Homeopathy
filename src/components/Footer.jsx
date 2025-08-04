@@ -10,7 +10,7 @@ const Footer = () => {
         <Row className="gy-4">
           {/* Logo & Address */}
           <Col md={4}>
-            <img src="logo_homeopathy.png" alt="Logo" height="150" className="mb-3" />
+            <img src="logo_homeopathy.png" alt="Logo" height="100" className="mb-3" />
             <p><FaMapMarkerAlt className="me-2" /> Kaipamangalam - Aravushala Rd, Moonnupeedika, Kerala 680681</p>
             <p><FaEnvelope className="me-2" /> info@bodymindhomeopathy.com</p>
             <p><FaPhoneAlt className="me-2" /> 04924 246 150</p>

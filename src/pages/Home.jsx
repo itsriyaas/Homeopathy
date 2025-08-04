@@ -10,6 +10,7 @@ import BookOnlineSection from '../components/BookOnline'
 import MedicineCourierSection from '../components/MedicineCourier'
 import TreatmentResults from '../components/TreatmentResults'
 import InstagramFeed from '../components/InstagramPosts'
+import OurTeam from '../components/OurTeam'
 
 function Home() {
   return (
@@ -29,6 +30,7 @@ function Home() {
     <TreatmentResults/>
     <BlogSection/>
     <InstagramFeed/>
+    <OurTeam/>
     <Testimonials/>
     </>
   )

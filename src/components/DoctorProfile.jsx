@@ -81,6 +81,7 @@ const DoctorProfile = () => {
     <section className="container py-5 doctor-profile-section bg-white">
       <div className="container">
         <div className="text-center mb-5">
+          <img src="/logo.png" alt="logo" width={'100'}/>
           <h1 className="fw-bold" data-aos="fade-down">{doctor.name}</h1>
           <p className="text-muted" data-aos="fade-up">{doctor.qualifications}</p>
         </div>
