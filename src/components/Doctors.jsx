@@ -35,6 +35,18 @@ const doctors= [
     specialization: "General physician",
     image: "/assets/doctors/drSheneefa.jpg",
   },
+  {
+    id: "dr7",
+    name: "Dr Sameena B.H.M.S",
+    specialization: "Medical officer",
+    image: "/assets/doctors/drSameena.jpg",
+  },
+  {
+    id: "dr8",
+    name: "Dr Praveen Dharmarathnam DHMS",
+    specialization: "FCAH(MUHS)SCPH (ICHM,UN) PG IACH(Greece)",
+    image: "/assets/doctors/drPraveen.jpg",
+  },
 ];
 
 export default doctors;
